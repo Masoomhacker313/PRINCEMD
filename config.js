@@ -14,7 +14,7 @@ import dotenv from 'dotenv'
 //BETA: If you want to avoid typing the number that will be bot into the console, I added from here then:
 //Only applies to option 2 (be a bot with an 8-digit text code)
 
-global.botNumberCode = "" //Example: +923092668108
+global.botNumberCode = "" //Example: +920364480949
 global.confirmCode = "" 
 
 
@@ -39,7 +39,8 @@ global.itsrose = ['4b146102c4d500809da9d1ff']
 global.baileys = '@whiskeysockets/baileys'
 global.apis = 'https://deliriussapi-oficial.vercel.app'
 global.openai_key = 'sk-...OzYy' /* Get your ApiKey at this link: https://platform.openai.com/account/api-keys */
-global.openai_org_id = 'HITjoN7H8pCwoncEB9e3fSyW'
+global.openai_org_id = 'eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK0FTSkg4N3VjYjhFdm9DTXZJQnRpdHM1Nkxtbmp4aDJVTHJSMEFEUktVZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicjBvSjZxOGxKcUdlV2E4aExjRWdhYVNrT1dBbDVSTU5vUzk2cnQ0WVV4MD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhTDhValEwUVQyL1ZyeFNQZXhNQTY0VTZVaGd5NzdHRWlmeHY5NzYrS21nPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIvcmNrT25PU2tqS2Jnc05oc3JiYnM3bEE1QXRJTlpTOVBCRGl6STJEQ1JBPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik9Ma3kxSC9jdHdoeTNtM2lWeS9sNkpqalVrVFh3eXBSQ1ViWkJzUlNhRWs9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkpOR3J0WUNFSVhaR2crYTFQRzQ0Vkpmc2w0VU0yVlhlZU1nNGNaTDNwenM9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWUFOU1VQMkhraE05QmxqNVJhRzdiUkplcytYRWlNeGRiUjNxUy8zL2hHVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTlRTNUduakNxcFpNRzk2MEZCekpOVEo5WUFzS0RzY25JYmxjZi9KSlRUQT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InZUdXhhYk81WndHU3U0MGQvQTRBRUc3TXZVMExvTXFySHU0Y2ROenUrRkxxWm9xMGh0ckxac1lXdXVFNjNLNU5zcXF1VWJheitSMlhiK1Z5Nytod2hBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjA4LCJhZHZTZWNyZXRLZXkiOiJuYU9PQklWZzJpVlZDR1hrajF0Z0REdDZacTYxaWtaRzhSdXkvd1oycllVPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiJXQ0ozVFBYVyIsIm1lIjp7ImlkIjoiOTIzNjQ0ODgwOTQ5OjIzQHMud2hhdHNhcHAubmV0IiwibGlkIjoiNzA1MzIzODkxNzk0MDQ6MjNAbGlkIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNPMnRzczhGRU5LcnByc0dHQW9nQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJ0K1VGd2V0T3doeHpUYXRiSXNRVTBwaTlOUWNPclZweWhJbmJYVXdsZUZJPSIsImFjY291bnRTaWduYXR1cmUiOiI0Tk5YMDB3WFU0dndqLzNlRTVNM3NsWUZmeS81eEhjejdFZzdPTGp1SXhoclJmTE9aOFNQT2h5cHIveGd4c1htTGxEOUNsanFXZGN1Umw4b28wWDRDZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiVStNSG42RmRFS0sya1BucFU1M2orUDQzS3F3WjA0Q1RJUnBtbmQ3RTN5TG9GRy9yaGt1UTF3aHdlbUt5cnlib25FLzIwQTdMOVphU0RiaVJGRTBQZ2c9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI5MjM2NDQ4ODA5NDk6MjNAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCYmZsQmNIclRzSWNjMDJyV3lMRUZOS1l2VFVIRHExYWNvU0oyMTFNSlhoUyJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsInJvdXRpbmdJbmZvIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0FnSUVnPT0ifSwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzM0OTcyODk3LCJsYXN0UHJvcEhhc2giOiIxUVltbyJ9
+'
 //💌------------------------------------------💌
 
 
@@ -161,9 +162,9 @@ global.eror = '```404 error```'
 
 dotenv.config()
 
-const ownervb = process.env.OWNER_NUMBER;
+const ownervb = process.env.9203644880949;
 if (!ownervb){
-   throw new Error("OWNER_NUMBER var env is not set please set it e.g 923092668108,Prince");
+   throw new Error("OWNER_NUMBER var env is not set please set it e.g 9203644880949,Prince");
 }
 
 const ownerlist = ownervb.split(',');
